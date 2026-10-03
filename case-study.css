@@ -1,0 +1,111 @@
+:root{--bg:#10110f;--panel:#181a17;--ink:#f0f0e9;--muted:#a2a69d;--line:#343831;--acid:#d5fa63;--blue:#a4c9ff;--mono:'DM Mono',monospace;--sans:'DM Sans',sans-serif;--display:'Space Grotesk',sans-serif}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:radial-gradient(ellipse at 18% 3%,#d5fa630a,transparent 42%),repeating-linear-gradient(135deg,transparent 0 78px,#ffffff04 79px,transparent 80px 156px),var(--bg);background-attachment:fixed;color:var(--ink);font:15px/1.7 var(--sans)}a{color:inherit;text-decoration:none}button{font:inherit;color:inherit}.wrap{width:min(1120px,calc(100% - 48px));margin:auto}.topbar{position:sticky;top:0;z-index:10;background:#10110feF;border-bottom:1px solid #ffffff0c;backdrop-filter:blur(14px)}.nav{height:70px;display:flex;align-items:center;gap:24px}.brand{font:600 16px var(--display);letter-spacing:-.04em;margin-right:auto}.brand span{color:var(--acid)}.back-link{font-size:12px;color:#c4c8bd}.back-link:hover,.text-link:hover{color:var(--acid)}.language-switch{display:flex;gap:3px;padding:3px;border:1px solid var(--line);border-radius:4px}.language-switch button{border:0;background:none;color:var(--muted);font:10px var(--mono);padding:5px 7px;cursor:pointer}.language-switch button.is-selected{background:#1e211d;color:var(--acid)}.case-hero{padding:100px 0 82px;border-bottom:1px solid var(--line)}.eyebrow,.label,.mono{font:11px var(--mono);letter-spacing:.08em;color:var(--acid);text-transform:uppercase}.case-hero h1{font:600 clamp(48px,8vw,92px)/.98 var(--display);letter-spacing:-.075em;max-width:940px;margin:25px 0 12px}.subtitle{font:500 clamp(18px,2.1vw,24px)/1.35 var(--display);color:#d7dacd;margin:0 0 19px}.lead{max-width:760px;color:#c4c8bd;font-size:17px}.stack{display:flex;flex-wrap:wrap;gap:8px;margin:24px 0}.stack span{border:1px solid var(--line);padding:5px 9px;color:#d1d5c9;font:10px var(--mono)}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:26px}.button{display:inline-flex;align-items:center;gap:10px;padding:11px 16px;background:var(--acid);color:#151710;border:1px solid var(--acid);border-radius:3px;font-size:13px;font-weight:700;transition:.2s}.button:hover{transform:translateY(-2px);background:#e3ff8a}.button-secondary{padding:10px 15px;border:1px solid var(--line);border-radius:3px;font-size:13px}.button-secondary:hover{border-color:var(--acid);color:var(--acid)}.section{padding:78px 0;border-bottom:1px solid var(--line)}.section-head{display:grid;grid-template-columns:.65fr 1.35fr;gap:40px;margin-bottom:36px}.label{padding-top:8px}.section h2{font:500 clamp(32px,4.4vw,54px)/1.08 var(--display);letter-spacing:-.055em;margin:0;max-width:800px}.section-intro{max-width:690px;color:var(--muted);margin:14px 0 0}.overview-grid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-left:calc(32.5% + 20px)}.stat{padding:19px;border-right:1px solid var(--line)}.stat:last-child{border:0}.stat strong{display:block;color:var(--acid);font:500 21px var(--display);margin-bottom:5px}.stat span{font:10px var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.06em}.split{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-left:calc(32.5% + 20px)}.split article{padding:21px 0;border-top:1px solid var(--line)}.split h3,.feature h3{font:500 18px var(--display);margin:0 0 9px}.split p,.feature p{margin:0;color:var(--muted);font-size:13px}.workflow{margin-left:calc(32.5% + 20px);display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);border-left:1px solid var(--line)}.flow-step{padding:18px;min-height:130px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}.flow-step .num{color:var(--acid);font:10px var(--mono)}.flow-step h3{font:500 15px var(--display);margin:15px 0 5px}.flow-step p{color:var(--muted);font-size:12px;margin:0}.feature-list{margin-left:calc(32.5% + 20px);border-top:1px solid var(--line)}.feature{display:grid;grid-template-columns:54px .75fr 1.25fr;gap:16px;padding:20px 0;border-bottom:1px solid var(--line);align-items:start}.feature .num{font:11px var(--mono);color:var(--acid)}.feature h3{margin:0}.feature p{max-width:560px}.gallery{margin-left:calc(32.5% + 20px)}.gallery figure{margin:0;border:1px solid var(--line);background:var(--panel)}.gallery img{width:100%;max-height:620px;display:block;object-fit:contain;background:#111}.gallery figcaption{padding:12px 15px;color:var(--muted);font:10px var(--mono);letter-spacing:.04em}.table-wrap{margin-left:calc(32.5% + 20px);overflow-x:auto;border-top:1px solid var(--line)}table{border-collapse:collapse;width:100%;min-width:510px;text-align:left}th,td{padding:15px 12px;border-bottom:1px solid var(--line)}th{font:10px var(--mono);color:var(--acid);text-transform:uppercase;letter-spacing:.06em}td{font-size:13px;color:#d5d8cf}td:not(:first-child){font-family:var(--mono)}.tags{display:flex;gap:7px;flex-wrap:wrap;margin-left:calc(32.5% + 20px)}.tags span{padding:8px 11px;border:1px solid var(--line);background:#181a17;color:#d5d8cf;font:11px var(--mono)}.publication{margin-left:calc(32.5% + 20px);padding:23px;border:1px solid var(--line);background:linear-gradient(120deg,#181a17,#131512)}.publication .mono{color:var(--blue)}.publication h3{font:500 23px/1.3 var(--display);max-width:740px;margin:16px 0}.text-link{color:var(--acid);font-size:13px}.info-grid{display:grid;grid-template-columns:1fr 1fr;margin-left:calc(32.5% + 20px);border-top:1px solid var(--line);border-left:1px solid var(--line)}.info{padding:15px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}.info span{display:block;color:var(--muted);font:10px var(--mono);text-transform:uppercase}.info strong{display:block;margin-top:5px;font-size:13px;font-weight:500}.cta{padding:85px 0 65px}.cta-row{display:flex;justify-content:space-between;align-items:end;gap:30px}.cta h2{font:500 clamp(38px,6vw,68px)/1 var(--display);letter-spacing:-.06em;margin:14px 0 0}.footer{padding:20px 0;border-top:1px solid var(--line);color:var(--muted);font:10px var(--mono);display:flex;justify-content:space-between;gap:15px}.reveal{opacity:0;transform:translateY(18px);transition:opacity .65s ease,transform .65s cubic-bezier(.2,.8,.2,1)}.reveal.visible{opacity:1;transform:none}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}}@media(max-width:760px){.wrap{width:min(100% - 32px,600px)}.nav{height:62px;gap:12px}.back-link{font-size:11px}.case-hero{padding:72px 0 58px}.lead{font-size:15px}.section{padding:58px 0}.section-head{display:block;margin-bottom:28px}.label{margin-bottom:16px}.overview-grid,.split,.workflow,.feature-list,.gallery,.table-wrap,.tags,.publication,.info-grid{margin-left:0}.overview-grid{grid-template-columns:1fr}.stat{border-right:0;border-bottom:1px solid var(--line)}.stat:last-child{border-bottom:0}.workflow{grid-template-columns:1fr 1fr}.flow-step{min-height:112px}.feature{grid-template-columns:36px 1fr;gap:8px}.feature p{grid-column:2}.cta-row{align-items:flex-start;flex-direction:column}.footer{flex-direction:column}.language-switch button{padding:5px}.section h2{font-size:clamp(32px,9vw,46px)}}
+
+/* Hydraulic detail page: sticky in-page navigation */
+body[data-page="hydraulic"] { scroll-padding-top: 138px; }
+.hydraulic-nav { position: sticky; top: 70px; z-index: 9; background: #10110feF; border-bottom: 1px solid var(--line); backdrop-filter: blur(14px); }
+.hydraulic-nav-inner { display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none; white-space: nowrap; }
+.hydraulic-nav-inner::-webkit-scrollbar { display: none; }
+.hydraulic-nav a { position: relative; flex: 0 0 auto; padding: 13px 10px 12px; color: var(--muted); font: 10px var(--mono); transition: color .2s ease; }
+.hydraulic-nav a::after { content: ""; position: absolute; right: 10px; bottom: -1px; left: 10px; height: 2px; background: transparent; transition: background .2s ease; }
+.hydraulic-nav a:hover, .hydraulic-nav a.is-active { color: var(--acid); }
+.hydraulic-nav a.is-active::after { background: var(--acid); }
+.hydraulic-section { scroll-margin-top: 138px; }
+@media (max-width: 760px) {
+  body[data-page="hydraulic"] { scroll-padding-top: 118px; }
+  .hydraulic-nav { top: 62px; }
+  .hydraulic-nav-inner { width: 100%; padding-right: 16px; padding-left: 16px; }
+  .hydraulic-nav a { padding: 11px 9px 10px; font-size: 9px; }
+  .hydraulic-section { scroll-margin-top: 118px; }
+}
+
+/* Inventory detail page navigation, scoped to this project */
+body[data-page="inventory"] { scroll-padding-top: 138px; }
+.inventory-section { scroll-margin-top: 138px; }
+@media (max-width: 760px) {
+  body[data-page="inventory"] { scroll-padding-top: 118px; }
+  .inventory-section { scroll-margin-top: 118px; }
+}
+
+/* Go-Snack detail page navigation, scoped to this project */
+body[data-page="go"] { scroll-padding-top: 138px; }
+.go-section { scroll-margin-top: 138px; }
+@media (max-width: 760px) {
+  body[data-page="go"] { scroll-padding-top: 118px; }
+  .go-section { scroll-margin-top: 118px; }
+}
+
+/* Additional Streamlit screenshots on the Hydraulic application section */
+body[data-page="hydraulic"] #penerapan .gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+body[data-page="hydraulic"] #penerapan .gallery figure { min-width: 0; }
+body[data-page="hydraulic"] #penerapan .gallery img { height: 300px; max-height: none; object-fit: contain; }
+@media (max-width: 760px) {
+  body[data-page="hydraulic"] #penerapan .gallery { grid-template-columns: 1fr; gap: 14px; }
+  body[data-page="hydraulic"] #penerapan .gallery img { height: auto; max-height: 440px; }
+}
+
+/* Go-Snack application gallery and scroll reveals */
+body[data-page="go"] #penerapan .go-gallery { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
+body[data-page="go"] #penerapan .go-gallery figure { min-width:0; margin:0; overflow:hidden; border:1px solid var(--line); background:var(--panel); }
+body[data-page="go"] #penerapan .go-gallery figure img { display:block; width:100%; height:300px; max-height:none; object-fit:contain; background:#0b0c0b; }
+body[data-page="go"] #penerapan .go-gallery figcaption { padding:10px 12px; color:var(--muted); font:11px/1.5 var(--mono); }
+body[data-page="go"] #penerapan .go-gallery-heading { grid-column:1/-1; display:flex; align-items:baseline; gap:12px; margin-top:20px; padding-bottom:10px; border-bottom:1px solid var(--line); }
+body[data-page="go"] #penerapan .go-gallery-heading .num { color:var(--acid); font:11px var(--mono); }
+body[data-page="go"] #penerapan .go-gallery-heading h3 { margin:0; font:500 22px var(--display); }
+body[data-page="go"] #penerapan .go-gallery-reveal { opacity:0; transform:translateY(22px); transition:opacity .65s ease,transform .65s cubic-bezier(.2,.8,.2,1); }
+body[data-page="go"] #penerapan .go-gallery-reveal.is-visible { opacity:1; transform:translateY(0); }
+@media(max-width:760px) {
+  body[data-page="go"] #penerapan .go-gallery { grid-template-columns:1fr; gap:14px; }
+  body[data-page="go"] #penerapan .go-gallery figure img { height:auto; max-height:440px; }
+  body[data-page="go"] #penerapan .go-gallery-heading { margin-top:12px; }
+}
+@media(prefers-reduced-motion:reduce) {
+  body[data-page="go"] #penerapan .go-gallery-reveal { opacity:1; transform:none; transition:none; }
+}
+
+/* Inventory application gallery and scroll reveals */
+body[data-page="inventory"] #penerapan .inventory-gallery { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; margin-top:28px; }
+body[data-page="inventory"] #penerapan .inventory-gallery figure { min-width:0; margin:0; overflow:hidden; border:1px solid var(--line); background:var(--panel); }
+body[data-page="inventory"] #penerapan .inventory-gallery figure img { display:block; width:100%; height:300px; max-height:none; object-fit:contain; background:#0b0c0b; }
+body[data-page="inventory"] #penerapan .inventory-gallery figcaption { padding:10px 12px; color:var(--muted); font:11px/1.5 var(--mono); }
+body[data-page="inventory"] #penerapan .inventory-gallery-heading { grid-column:1/-1; display:flex; align-items:baseline; gap:12px; margin-top:20px; padding-bottom:10px; border-bottom:1px solid var(--line); }
+body[data-page="inventory"] #penerapan .inventory-gallery-heading .num { color:var(--acid); font:11px var(--mono); }
+body[data-page="inventory"] #penerapan .inventory-gallery-heading h3 { margin:0; font:500 22px var(--display); }
+body[data-page="inventory"] #penerapan .inventory-gallery-reveal { opacity:0; transform:translateY(22px); transition:opacity .65s ease,transform .65s cubic-bezier(.2,.8,.2,1); }
+body[data-page="inventory"] #penerapan .inventory-gallery-reveal.is-visible { opacity:1; transform:translateY(0); }
+@media(max-width:760px) {
+  body[data-page="inventory"] #penerapan .inventory-gallery { grid-template-columns:1fr; gap:14px; }
+  body[data-page="inventory"] #penerapan .inventory-gallery figure img { height:auto; max-height:440px; }
+  body[data-page="inventory"] #penerapan .inventory-gallery-heading { margin-top:12px; }
+}
+@media(prefers-reduced-motion:reduce) {
+  body[data-page="inventory"] #penerapan .inventory-gallery-reveal { opacity:1; transform:none; transition:none; }
+}
+
+/* Hydraulic application screenshots reveal as they enter the viewport */
+body[data-page="hydraulic"] #penerapan .hydraulic-gallery-reveal { opacity:0; transform:translateY(22px); transition:opacity .65s ease,transform .65s cubic-bezier(.2,.8,.2,1); }
+body[data-page="hydraulic"] #penerapan .hydraulic-gallery-reveal.is-visible { opacity:1; transform:translateY(0); }
+@media(prefers-reduced-motion:reduce) {
+  body[data-page="hydraulic"] #penerapan .hydraulic-gallery-reveal { opacity:1; transform:none; transition:none; }
+}
+
+/* Match Hydraulic application cards to the Inventory application gallery */
+body[data-page="hydraulic"] #penerapan .hydraulic-gallery { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; margin-top:28px; }
+body[data-page="hydraulic"] #penerapan .hydraulic-gallery figure { min-width:0; margin:0; overflow:hidden; border:1px solid var(--line); background:var(--panel); }
+body[data-page="hydraulic"] #penerapan .hydraulic-gallery figure img { display:block; width:100%; height:300px; max-height:none; object-fit:contain; background:#0b0c0b; }
+body[data-page="hydraulic"] #penerapan .hydraulic-gallery figcaption { padding:10px 12px; color:var(--muted); font:11px/1.5 var(--mono); }
+body[data-page="hydraulic"] #penerapan .feature .num::after { content:" —"; }
+@media(max-width:760px) {
+  body[data-page="hydraulic"] #penerapan .hydraulic-gallery { grid-template-columns:1fr; gap:14px; }
+  body[data-page="hydraulic"] #penerapan .hydraulic-gallery figure img { height:auto; max-height:440px; }
+}
+
+/* Hydraulic application groups mirror the editorial inventory gallery layout */
+body[data-page="hydraulic"] #penerapan .hydraulic-application-group { margin:28px 0 0 calc(32.5% + 20px); }
+body[data-page="hydraulic"] #penerapan .hydraulic-application-heading { display:flex; align-items:baseline; gap:12px; padding-bottom:10px; border-bottom:1px solid var(--line); }
+body[data-page="hydraulic"] #penerapan .hydraulic-application-heading .num { color:var(--acid); font:11px var(--mono); }
+body[data-page="hydraulic"] #penerapan .hydraulic-application-heading h3 { margin:0; font:500 22px var(--display); }
+body[data-page="hydraulic"] #penerapan .hydraulic-application-group > p { margin:10px 0 16px; color:var(--muted); font-size:13px; }
+body[data-page="hydraulic"] #penerapan .hydraulic-application-group .hydraulic-gallery { margin:0; }
+@media(max-width:900px) {
+  body[data-page="hydraulic"] #penerapan .hydraulic-application-group { margin-left:0; }
+}
